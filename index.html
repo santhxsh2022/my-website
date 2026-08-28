@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="positive">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Santhosh M — Graphic Designer</title>
+<meta name="description" content="Santhosh M — Graphic designer crafting brand systems, print, and digital identities.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Fixed crop / bleed marks -->
+<div class="bleed-marks" aria-hidden="true">
+  <span class="bleed-mark bleed-mark--tl"></span>
+  <span class="bleed-mark bleed-mark--tr"></span>
+  <span class="bleed-mark bleed-mark--bl"></span>
+  <span class="bleed-mark bleed-mark--br"></span>
+</div>
+
+<!-- Custom cursor -->
+<div class="cursor" id="cursor" aria-hidden="true">
+  <svg viewBox="0 0 40 40" width="40" height="40">
+    <circle class="cursor-ring" cx="20" cy="20" r="10" fill="none" stroke-width="1"/>
+    <line x1="20" y1="0" x2="20" y2="12" stroke-width="1"/>
+    <line x1="20" y1="28" x2="20" y2="40" stroke-width="1"/>
+    <line x1="0" y1="20" x2="12" y2="20" stroke-width="1"/>
+    <line x1="28" y1="20" x2="40" y2="20" stroke-width="1"/>
+  </svg>
+</div>
+
+<div class="grain" aria-hidden="true"></div>
+
+<!-- NAV -->
+<header class="site-nav" id="siteNav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo" data-cursor="hover">SM<span class="nav-logo-dot">·</span></a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#work" data-cursor="hover"><span class="nav-num">C</span>Work</a>
+      <a href="#about" data-cursor="hover"><span class="nav-num">M</span>About</a>
+      <a href="#process" data-cursor="hover"><span class="nav-num">Y</span>Process</a>
+      <a href="#contact" data-cursor="hover"><span class="nav-num">K</span>Contact</a>
+    </nav>
+
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" data-cursor="hover" aria-label="Toggle positive/negative theme">
+        <span class="theme-toggle-label" id="themeLabel">Positive</span>
+        <span class="theme-toggle-track"><span class="theme-toggle-thumb"></span></span>
+      </button>
+      <button class="nav-burger" id="navBurger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow reveal"><span class="swatch swatch--k"></span>Graphic Designer — Branding, Print &amp; Campaigns</p>
+
+      <h1 class="hero-title" aria-label="Santhosh M">
+        <span class="hero-title-layer hero-title-layer--c" aria-hidden="true">Santhosh M</span>
+        <span class="hero-title-layer hero-title-layer--m" aria-hidden="true">Santhosh M</span>
+        <span class="hero-title-layer hero-title-layer--k">Santhosh M</span>
+      </h1>
+
+      <p class="hero-sub reveal">
+        I design brand identities, packaging, and campaign work — from a
+        soft-drink brand built on diner nostalgia to poster series and
+        social-first campaigns. Every project starts the same way: figure
+        out what it actually needs to say, then say it with precision.
+      </p>
+
+      <div class="hero-actions reveal">
+        <a href="#work" class="btn btn--primary magnetic" data-cursor="hover"><span>View the work</span></a>
+        <a href="#contact" class="btn btn--ghost magnetic" data-cursor="hover"><span>Start a project</span></a>
+      </div>
+
+      <div class="hero-meta reveal">
+        <div class="hero-meta-item">
+          <span class="mono-label">Based in</span>
+          <span>Madurai, India</span>
+        </div>
+        <div class="hero-meta-item">
+          <span class="mono-label">Focus</span>
+          <span>Branding · Packaging · Campaigns</span>
+        </div>
+        <div class="hero-meta-item">
+          <span class="mono-label">Status</span>
+          <span class="status-dot-wrap"><span class="status-dot"></span>Employed, Madurai</span>
+        </div>
+      </div>
+    </div>
+
+    <button class="scroll-cue" id="scrollCue" aria-label="Scroll to work" data-cursor="hover">
+      <span>Scroll</span>
+      <span class="scroll-cue-line"></span>
+    </button>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Figma</span><span class="dot">·</span>
+      <span>Illustrator</span><span class="dot">·</span>
+      <span>Photoshop</span><span class="dot">·</span>
+      <span>InDesign</span><span class="dot">·</span>
+      <span>After Effects</span><span class="dot">·</span>
+      <span>Procreate</span><span class="dot">·</span>
+      <span>Webflow</span><span class="dot">·</span>
+      <span>Blender</span><span class="dot">·</span>
+      <span>Figma</span><span class="dot">·</span>
+      <span>Illustrator</span><span class="dot">·</span>
+      <span>Photoshop</span><span class="dot">·</span>
+      <span>InDesign</span><span class="dot">·</span>
+      <span>After Effects</span><span class="dot">·</span>
+      <span>Procreate</span><span class="dot">·</span>
+      <span>Webflow</span><span class="dot">·</span>
+      <span>Blender</span><span class="dot">·</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <span class="ghost-watermark" style="top:-4%; left:-2%;" aria-hidden="true">Madurai</span>
+    <div class="section-head reveal">
+      <span class="swatch swatch--m"></span>
+      <span class="mono-label">M — About</span>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-visual reveal">
+        <div class="about-portrait">
+          <span class="about-portrait-tag mono-label">portrait.tif — 4×5 — 300dpi</span>
+        </div>
+        <div class="palette-strip" aria-label="Personal colour palette">
+          <span class="palette-chip" style="--c: var(--cyan)"><i></i>PMS 3125 C</span>
+          <span class="palette-chip" style="--c: var(--magenta)"><i></i>PMS 219 C</span>
+          <span class="palette-chip" style="--c: var(--yellow)"><i></i>PMS 116 C</span>
+          <span class="palette-chip" style="--c: var(--ink)"><i></i>PMS Black 6 C</span>
+        </div>
+      </div>
+
+      <div class="about-copy reveal">
+        <h2 class="section-title">Design that holds up<br>under close inspection.</h2>
+        <p>
+          I'm Santhosh — a graphic designer based in Madurai, working
+          across branding, packaging, and campaign design. My favourite
+          projects are the ones with a real story to tell, like Great
+          Harvest, a soft-drink identity built on classic diner nostalgia
+          for a college-age audience — nostalgic, but never dated.
+        </p>
+        <p>
+          Day to day, that means identity systems, poster series, and
+          social-first campaign work, with the same attention to detail
+          whether it ends up on a can or a carousel post.
+        </p>
+
+        <dl class="fact-list">
+          <div class="fact-row">
+            <dt>Based in</dt>
+            <dd>Madurai, India</dd>
+          </div>
+          <div class="fact-row">
+            <dt>Currently</dt>
+            <dd>Employed, open to select freelance</dd>
+          </div>
+          <div class="fact-row">
+            <dt>Portfolio</dt>
+            <dd>behance.net/santhosh7m</dd>
+          </div>
+        </dl>
+
+        <div class="stat-strip reveal">
+          <div class="stat-item">
+            <span class="stat-num">6+</span>
+            <span class="stat-label mono-label">Brand systems shipped</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">[X]</span>
+            <span class="stat-label mono-label">[Add: Behance views / appreciations]</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">[X]</span>
+            <span class="stat-label mono-label">[Add: clients or brands worked with]</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="work" id="work">
+    <div class="halftone" aria-hidden="true" style="margin-bottom:56px;"></div>
+    <div class="section-head reveal">
+      <span class="swatch swatch--c"></span>
+      <span class="mono-label">C — Selected Work</span>
+    </div>
+    <h2 class="section-title reveal">Six projects,<br>chosen on purpose.</h2>
+
+    <div class="work-grid">
+
+      <article class="work-card reveal" data-cursor="hover" data-project="greatharvest" data-tilt>
+        <div class="work-thumb" style="background-image:url('https://mir-s3-cdn-cf.behance.net/projects/404/a09b5a242573209.Y3JvcCwzODM1LDMwMDAsOTQ5LDA.png')">
+          <span class="work-thumb-tag mono-label">01 / 06 — Favourite</span>
+        </div>
+        <div class="work-card-meta">
+          <h3>Great Harvest</h3>
+          <p class="work-card-tags"><span class="tag tag--c">Brand Identity</span><span class="work-year">2026</span></p>
+        </div>
+        <div class="work-card-spec mono-label">
+          Role: Brand &amp; Packaging — Soft drink identity
+        </div>
+        <div class="work-card-impact mono-label">[Add result — views, client outcome, or where it shipped]</div>
+      </article>
+
+      <article class="work-card reveal" data-cursor="hover" data-project="mysoresandal" data-tilt>
+        <div class="work-thumb" style="background-image:url('https://mir-s3-cdn-cf.behance.net/projects/404/df0970245840141.Y3JvcCw0MTExLDMyMTYsMCww.png')">
+          <span class="work-thumb-tag mono-label">02 / 06</span>
+        </div>
+        <div class="work-card-meta">
+          <h3>Mysore Sandal</h3>
+          <p class="work-card-tags"><span class="tag tag--m">Brand Refresh</span><span class="work-year">2026</span></p>
+        </div>
+        <div class="work-card-spec mono-label">
+          Role: Identity Direction — Heritage brand reimagined
+        </div>
+        <div class="work-card-impact mono-label">[Add result — views, client outcome, or where it shipped]</div>
+      </article>
+
+      <article class="work-card reveal" data-cursor="hover" data-project="campuspulse" data-tilt>
+        <div class="work-thumb" style="background-image:url('https://mir-s3-cdn-cf.behance.net/projects/404/bc4230246198043.Y3JvcCwxNjE2LDEyNjQsMCww.png')">
+          <span class="work-thumb-tag mono-label">03 / 06</span>
+        </div>
+        <div class="work-card-meta">
+          <h3>Campus Pulse</h3>
+          <p class="work-card-tags"><span class="tag tag--y">Poster Series</span><span class="work-year">2026</span></p>
+        </div>
+        <div class="work-card-spec mono-label">
+          Role: Concept &amp; Layout — College event posters
+        </div>
+        <div class="work-card-impact mono-label">[Add result — views, client outcome, or where it shipped]</div>
+      </article>
+
+      <article class="work-card reveal" data-cursor="hover" data-project="systemcore" data-tilt>
+        <div class="work-thumb" style="background-image:url('https://mir-s3-cdn-cf.behance.net/projects/404/e3070f246199369.Y3JvcCwxNjE2LDEyNjQsMCww.png')">
+          <span class="work-thumb-tag mono-label">04 / 06</span>
+        </div>
+        <div class="work-card-meta">
+          <h3>System Core</h3>
+          <p class="work-card-tags"><span class="tag tag--c">Ad Campaign</span><span class="work-year">2026</span></p>
+        </div>
+        <div class="work-card-spec mono-label">
+          Role: Campaign Design — Tech product ads
+        </div>
+        <div class="work-card-impact mono-label">[Add result — views, client outcome, or where it shipped]</div>
+      </article>
+
+      <article class="work-card reveal" data-cursor="hover" data-project="jewelry" data-tilt>
+        <div class="work-thumb" style="background-image:url('https://mir-s3-cdn-cf.behance.net/projects/404/0af4fc246157791.Y3JvcCwxNjE2LDEyNjQsMCww.png')">
+          <span class="work-thumb-tag mono-label">05 / 06</span>
+        </div>
+        <div class="work-card-meta">
+          <h3>Elegant Jewelry</h3>
+          <p class="work-card-tags"><span class="tag tag--m">Social Campaign</span><span class="work-year">2026</span></p>
+        </div>
+        <div class="work-card-spec mono-label">
+          Role: Art Direction — Social media poster series
+        </div>
+        <div class="work-card-impact mono-label">[Add result — views, client outcome, or where it shipped]</div>
+      </article>
+
+      <article class="work-card reveal" data-cursor="hover" data-project="grocery" data-tilt>
+        <div class="work-thumb" style="background-image:url('https://mir-s3-cdn-cf.behance.net/projects/404/df1a7a246199157.Y3JvcCwxNjE2LDEyNjQsMCww.png')">
+          <span class="work-thumb-tag mono-label">06 / 06</span>
+        </div>
+        <div class="work-card-meta">
+          <h3>Grocery Campaigns</h3>
+          <p class="work-card-tags"><span class="tag tag--y">Retail Campaign</span><span class="work-year">2026</span></p>
+        </div>
+        <div class="work-card-spec mono-label">
+          Role: Promotion Design — High-impact retail series
+        </div>
+        <div class="work-card-impact mono-label">[Add result — views, client outcome, or where it shipped]</div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="process process--minor" id="process">
+    <div class="section-head reveal">
+      <span class="swatch swatch--y"></span>
+      <span class="mono-label">Y — Process</span>
+    </div>
+    <h2 class="section-title section-title--minor reveal">How a project moves.</h2>
+
+    <div class="process-grid">
+      <div class="process-step reveal">
+        <span class="process-code process-code--c">C01</span>
+        <h3>Discover</h3>
+        <p>Audience, market, and competitive landscape — understanding what the work actually needs to do before it looks like anything.</p>
+      </div>
+      <div class="process-step reveal">
+        <span class="process-code process-code--m">M02</span>
+        <h3>Define</h3>
+        <p>Strategy and positioning distilled into a clear creative direction, agreed on before a single pixel is final.</p>
+      </div>
+      <div class="process-step reveal">
+        <span class="process-code process-code--y">Y03</span>
+        <h3>Design</h3>
+        <p>Exploration, critique, and refinement in tight loops — usually three rounds, rarely more than five.</p>
+      </div>
+      <div class="process-step reveal">
+        <span class="process-code process-code--k">K04</span>
+        <h3>Deliver</h3>
+        <p>Production-ready files, documented guidelines, and a handoff that doesn't need a follow-up call to decode.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="experience" id="experience">
+    <div class="section-head reveal">
+      <span class="swatch swatch--k"></span>
+      <span class="mono-label">K — Experience</span>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-row reveal timeline-row--placeholder">
+        <span class="timeline-year mono-label">Now</span>
+        <div class="timeline-body">
+          <h3>[Add new role title]</h3>
+          <p>[Add new company name] — Madurai. Fill this in once details are ready.</p>
+        </div>
+      </div>
+      <div class="timeline-row reveal">
+        <span class="timeline-year mono-label">2026</span>
+        <div class="timeline-body">
+          <h3>Graphic Design Intern</h3>
+          <p>Mystic Media House — designed school activity and assessment sheets in InDesign, Instagram carousels, and poster work.</p>
+        </div>
+      </div>
+      <div class="timeline-row reveal">
+        <span class="timeline-year mono-label">[Year]</span>
+        <div class="timeline-body">
+          <h3>[Education or first role]</h3>
+          <p>[School or studio name].</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="section-head reveal">
+      <span class="swatch swatch--m"></span>
+      <span class="mono-label">Let's talk</span>
+    </div>
+    <h2 class="contact-title reveal">Have a project<br>worth designing well?</h2>
+
+    <button class="contact-email magnetic reveal" id="copyEmail" data-cursor="hover" data-email="santhoshworkspace0@gmail.com">
+      <span id="emailText">santhoshworkspace0@gmail.com</span>
+      <span class="copy-hint mono-label" id="copyHint">click to copy</span>
+    </button>
+
+    <div class="contact-links reveal">
+      <a href="https://www.behance.net/santhosh7m" target="_blank" rel="noopener" class="social-chip" data-cursor="hover">Behance</a>
+      <a href="#" class="social-chip" data-cursor="hover">Instagram</a>
+      <a href="#" class="social-chip" data-cursor="hover">LinkedIn</a>
+      <a href="#" class="social-chip" data-cursor="hover">Dribbble</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span class="mono-label">Set in Fraunces &amp; Space Mono</span>
+    <span class="mono-label">© 2026 Santhosh M</span>
+    <button class="back-to-top mono-label" id="backToTop" data-cursor="hover">Back to top ↑</button>
+  </div>
+</footer>
+
+<!-- PROJECT MODAL -->
+<div class="modal" id="projectModal" aria-hidden="true">
+  <div class="modal-backdrop" id="modalBackdrop"></div>
+  <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" id="modalClose" data-cursor="hover" aria-label="Close">Close ✕</button>
+    <div class="modal-content">
+      <span class="mono-label" id="modalTag">Brand Identity — 2025</span>
+      <h3 id="modalTitle">Solace</h3>
+      <p id="modalDesc">Project description goes here.</p>
+      <div class="modal-spec">
+        <div><span class="mono-label">Role</span><span id="modalRole">—</span></div>
+        <div><span class="mono-label">Tools</span><span id="modalTools">—</span></div>
+        <div><span class="mono-label">Year</span><span id="modalYear">—</span></div>
+      </div>
+      <a href="#" id="modalLink" target="_blank" rel="noopener" class="btn btn--primary" data-cursor="hover"><span>View full case study</span></a>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
